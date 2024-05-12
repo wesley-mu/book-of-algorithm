@@ -1,4 +1,4 @@
-package com.codemaster.array;
+package com.codemaster.greedy;
 
 /**
  * 跳跃游戏II

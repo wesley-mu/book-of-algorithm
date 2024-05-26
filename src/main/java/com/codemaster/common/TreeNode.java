@@ -1,5 +1,8 @@
 package com.codemaster.common;
 
+/**
+ * 树节点通用pojo
+ */
 public class TreeNode {
     public int val;
     public TreeNode left;
@@ -9,8 +12,8 @@ public class TreeNode {
 
     }
 
-    public TreeNode (int x) {
-        this.val = x;
+    public TreeNode (int val) {
+        this.val = val;
     }
 
     public TreeNode (int val, TreeNode left, TreeNode right) {
